@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ramadan Countdown</title>
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Ramadan Countdown">
+    <meta itemprop="description" content="هذا الموقع يقوم بحساب الأيام المتبقية على بداية/نهاية شهر رمضان">
+    <meta itemprop="image" content="images/thumbnail.jpg">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://ramadan-countdown.netlify.app">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ramadan Countdown">
+    <meta property="og:description" content="هذا الموقع يقوم بحساب الأيام المتبقية على بداية/نهاية شهر رمضان">
+    <meta property="og:image" content="images/thumbnail-wide.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ramadan Countdown">
+    <meta name="twitter:description" content="هذا الموقع يقوم بحساب الأيام المتبقية على بداية/نهاية شهر رمضان">
+    <meta name="twitter:image" content="images/thumbnail.jpg">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="container__content">
+        <img class="container__moon"
+             src="images/moon.svg"
+             alt="moon">
+
+        <div class="container__shapes">
+            <div class="container__shape">
+                <img class="container__shapeImg"
+                     src="images/islamic-shapes.svg"
+                     alt="islamic-shape">
+            </div>
+            <div class="container__shape">
+                <img class="container__shapeImg"
+                     src="images/islamic-shapes.svg"
+                     alt="islamic-shape">
+            </div>
+            <div class="container__shape">
+                <img class="container__shapeImg"
+                     src="images/islamic-shapes.svg"
+                     alt="islamic-shape">
+            </div>
+            <div class="container__stars">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+                <img class="container__star"
+                     src="images/star.svg"
+                     alt="islamic-shape">
+            </div>
+        </div>
+
+        <p class="container__text">
+            <span>باقي</span>
+            <span class="container__textTo">على</span>
+            <span class="container__textFrom">من</span>
+            <span class="container__specialWord">رمضان</span>
+        </p>
+
+        <p class="container__remaining">
+            <span class="container__remainingTime">--</span>
+            <span>يوم </span>
+        </p>
+    </div>
+</div>
+
+<script src="scripts/moment.js"></script>
+<script src="scripts/moment-hijri.js"></script>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
